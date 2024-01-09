@@ -37,7 +37,7 @@ write_files:
 packages: jq
 snap:
     commands:
-        - snap install maas --channel=3.3/stable
+        - snap install maas --channel=latest/edge
         - snap install --channel=latest/stable lxd
         - snap refresh --channel=latest/stable lxd
         - snap install maas-test-db
